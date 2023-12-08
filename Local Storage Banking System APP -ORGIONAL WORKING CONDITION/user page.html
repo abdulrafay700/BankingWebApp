@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <!-- favicon -->
+   <link rel="icon" href="https://vectorseek.com/wp-content/uploads/2020/12/HBL-logo-vector-01.jpg">
+   <!-- font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- javaScript PDF Library -->
+    <!-- <script src="https://unpkg.com/html2pdf.js"></script> -->
+
+    <!-- Add this in the head section of your HTML -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+
+
+
+
+
+<!-- font Awesome Pro -->
+<!-- <link rel="stylesheet" href="https://use.fortawesome.com/kits/1ce05b4b/publications/125785/woff2.css" media="all"> -->
+<!-- <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome" href="/css/app-wa-2e45578ecf3b28ce6383d10b8c0bf4d0.css?vsn=d"> -->
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+
+</head>
+<body>
+    
+    <div id="logo" class="continer-logo">
+        <h1>Welcome To The HBL Banking</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/HBL_logo.png" alt="">
+    </div>
+
+    
+    <!-- user data -->
+    <div class="main-container">
+        <nav>
+            <ul>
+                
+                <li> <button class="nav-btn"><i class="fa-sharp fa-solid fa-house-user"></i> Home </button></li>
+                <li> <button class="nav-btn"><i class="fa-solid fa-wallet"></i>Cash Deposit </button></li>
+                <li> <button class="nav-btn"><i class="fa-sharp fa-regular fa-money-from-bracket"></i>Cash Withdraw</button> </li>
+                <li> <button class="nav-btn"><i class="fa-solid fa-money-bill-transfer"></i>Cash Transfer</button></li>
+                <li> <button class="nav-btn"><i class="fa-solid fa-sack-dollar"></i> </i>Show Transection History</button> </li>
+                <li> <button class="nav-btn"><i class="fa-sharp fa-solid fa-eye-slash"></i>Show | Hide Amount</button> </li>
+                <li id="download-Button"></li>
+            </ul>
+                <div class="user-icon">
+                    <i class="fa-solid fa-user" style="color: #000000; font-size: 20px;"></i>
+                    <p id="loggedInUserName"></p>
+                    <button  id="logout"><i class="fa-sharp fa-regular fa-right-from-bracket"></i>Logout</button>
+                </div>
+              
+        </nav>
+        
+        <section class="user-home-section">
+            <div id="userAmount"class="show" >
+             <h1 >Your Amount balance is </h1>
+             <h3 id="showAmount" > 0</h3>
+            </div>
+
+            <div class="transectionHistory hide">hr</div>
+        </section>
+
+        <!-- Transection History -->
+        
+    </div>
+</body>
+
+<script src="cash deposit user page app .js" ></script>
+<script src="for styling javascript.js" ></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js"></script>
+</html>
